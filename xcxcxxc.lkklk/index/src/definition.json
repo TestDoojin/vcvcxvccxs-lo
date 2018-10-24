@@ -1,0 +1,53 @@
+{
+  "name" : "index",
+  "title" : "xcxcxxc.lkklk",
+  "uri" : "xcxcxxc.lkklk",
+  "refreshFrequencyTimeRange" : "08:00-14:00",
+  "userInterface" : {
+    "themeName" : "mediaBlog",
+    "resourcesHost" : "https://bc.marfeelcache.com",
+    "lang" : "en",
+    "features" : {
+      "twisterJavaEnabled" : true,
+      "forceXL" : true,
+      "themeNameByDevice" : {
+        "s" : "k"
+      },
+      "useInventoryAds" : "remote"
+    },
+    "adex" : false
+  },
+  "sectionDefinitions" : [ {
+    "name" : "home",
+    "styles" : "photo",
+    "title" : "Home",
+    "itemLimit" : 0,
+    "premium" : false,
+    "feedDefinitions" : [ {
+      "uri" : "http://www.xcxcxxc.lkklk",
+      "alibabaDefinition" : {
+        "configuration" : {
+          "whiteCollarScript" : "index/src/whiteCollar/main.js",
+          "cronRefresh" : "0 0/3 * 1/1 * ? *"
+        }
+      },
+      "configuration" : {
+        "whiteCollarScript" : "index/src/whiteCollar/main.js",
+        "cronRefresh" : "0 0/3 * 1/1 * ? *"
+      }
+    } ],
+    "configuration" : {
+      "whiteCollarScript" : "index/src/whiteCollar/main.js",
+      "cronRefresh" : "0 0/3 * 1/1 * ? *"
+    },
+    "level" : 0,
+    "type" : "DEFAULT",
+    "disabledEnvironments" : 0,
+    "cronRefresh" : "10 1/3 * 1/1 * ? *",
+    "uri" : "http://www.xcxcxxc.lkklk",
+    "freshnessExpressionInSeconds" : 360
+  } ],
+  "configuration" : {
+    "whiteCollarScript" : "index/src/whiteCollar/main.js"
+  }
+}
